@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/drawer_overview"
+            android:icon="@drawable/icm_home"
+            android:title="@string/drawer_overview" />
+        <item
+            android:id="@+id/drawer_income"
+            android:icon="@drawable/icm_income"
+            android:title="@string/drawer_income" />
+        <item
+            android:id="@+id/drawer_expenses"
+            android:icon="@drawable/icm_expense"
+            android:title="@string/drawer_expenses" />
+        <item
+            android:id="@+id/drawer_analytics"
+            android:icon="@drawable/icm_analysis"
+            android:title="@string/drawer_analytics" />
+        <item
+            android:id="@+id/drawer_accounts"
+            android:icon="@drawable/icm_account"
+            android:title="@string/drawer_accounts" />
+        <item
+            android:id="@+id/drawer_budgets"
+            android:icon="@drawable/icm_budget2"
+            android:title="@string/drawer_budgets" />
+        <item
+            android:id="@+id/drawer_scheduling"
+            android:icon="@drawable/icm_schedule"
+            android:title="@string/drawer_scheduling" />
+    </group>
+
+    <item android:title="@string/drawer_tools">
+        <menu>
+            <item
+                android:id="@+id/drawer_tool_export"
+                android:icon="@drawable/icm_export"
+                android:title="@string/drawer_export" />
+            <item
+                android:id="@+id/drawer_tool_synchro"
+                android:icon="@drawable/icm_synchronize"
+                android:title="@string/drawer_synchronize" />
+        </menu>
+    </item>
+
+    <item android:title="@string/drawer_info">
+        <menu>
+            <item
+                android:id="@+id/drawer_info_about"
+                android:icon="@drawable/icm_about"
+                android:title="@string/drawer_about_project" />
+            <item
+                android:id="@+id/drawer_info_contribute"
+                android:icon="@drawable/icm_github"
+                android:title="@string/drawer_contribute" />
+        </menu>
+    </item>
+
+</menu>

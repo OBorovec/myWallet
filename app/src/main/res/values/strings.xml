@@ -1,3 +1,36 @@
 <resources>
-    <string name="app_name">myWallet</string>
+    <string name="app_name">MyWallet</string>
+
+    <!-- Drawer menu -->
+    <string name="drawer_overview">Overview</string>
+    <string name="drawer_income">Income</string>
+    <string name="drawer_expenses">Expenses</string>
+    <string name="drawer_analytics">Analytics</string>
+    <string name="drawer_accounts">Accounts</string>
+    <string name="drawer_budgets">Budgets</string>
+    <string name="drawer_scheduling">Scheduling</string>
+    <string name="drawer_tools">Tools</string>
+    <string name="drawer_info">Info</string>
+    <string name="drawer_synchronize">Synchronize</string>
+    <string name="drawer_export">Export</string>
+    <string name="drawer_about_project">About project</string>
+    <string name="drawer_contribute">Contribute</string>
+
+    <!-- Drawer header -->
+    <string name="drawer_header_moto">Keep a track of your money</string>
+
+    <!-- Fragments -->
+
+    <!-- Fragment InProgress -->
+    <string name="fragment_inprogress_part_one">Dear user, please, apologize us, but this segment:</string>
+    <string name="fragment_inprogress_part_two">is still work in progress. We are working hard, so pls give up a little bit more time. Thanks</string>
+
+    <!-- Dialogs -->
+    <!-- New record dialog -->
+    <string name="dialog_new_record_income_btn">Income</string>
+    <string name="dialog_new_record_expense_btn">Expense</string>
+    <string name="dialog_new_record_cancel_btn">Cancel</string>
+    <string name="dialog_new_record_addmore_btn">Add more</string>
+    <string name="dialog_new_record_save_btn">Save</string>
+
 </resources>
